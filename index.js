@@ -22,10 +22,13 @@ function sayHiToGrandma(string) {
     return "I can't hear you!"
   }
 
-  if string ==== uppercase {
+  if (string.toUpperCase() === string) {
     return "YES INDEED!"
   }
-  if string === "I love you, Grandma." {
+  
+  if (string.toUpperCase() === "I love you, Grandma." {
     return "I love you, too."
   }
+
+  return "are you eating enough?"
 }
